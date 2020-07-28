@@ -1,0 +1,21 @@
+<section class="events" data-bind="if: apiData().Events">
+    <div class="events__container container">
+        <div class="events__wrapper">
+            <span class="events__info" data-bind="text: apiData().Events.info"> </span>
+            <h2 class="events__title" data-bind="text: apiData().Events.title"> </h2>
+        </div>
+
+        <ul class="events__list" data-bind="foreach: apiData().Events.dataEvent">
+            <li class="events__items">
+                <div class="events__wrapper-days">
+                    <span class="events__month" data-bind="text: month"> </span>
+                    <span class="events__day" data-bind="text: day"> </span>
+                </div>
+                <div class="events__wrapper-title">
+                    <span class="events__item-title" data-bind="text: title"> </span>
+                    <span class="events__description" data-bind="text: description"> </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>

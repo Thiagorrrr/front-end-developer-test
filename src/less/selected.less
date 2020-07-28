@@ -1,0 +1,143 @@
+@import './colors';
+@import './breakPoint';
+
+.selected {
+    padding: 50px 0;
+    background: #F2F2F2;
+
+
+    @media @global-break-md {
+        padding: 50px 0px 80px 0px
+    }
+
+    .swiper-slide-shadow-right,
+    .swiper-slide-shadow-left {
+        background: #f2f2f28a;
+        background-image: none !important;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+
+        @media @global-break-lg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 24px;
+            width: 44px;
+            background: @white;
+            background-size: 7px 50px;
+            top: 50%;
+        }
+    }
+
+    .swiper-button-next {
+        @media @global-break-lg {
+            margin-right: 55px;
+        }
+    }
+
+    .swiper-button-prev {
+        @media @global-break-lg {
+            margin-left: 55px;
+        }
+    }
+
+    .swiper-slide.instagram__card.swiper-slide-active {
+        .instagram__img-item {
+            transition: ease-in-out all 350ms;
+            padding: 10px;
+            box-shadow: 0px 0px 20px 5px #0000003d;
+        }
+
+        margin-top: 60px;
+
+        @media @global-break-lg {
+            transition: ease-in-out all 350ms;
+            transform: scale(1.2) !important;
+            margin: 80px 14px 0px 14px;
+        }
+
+
+
+    }
+
+    &__cards {
+        align-items: center;
+    }
+
+    &__arrow {
+        display: none;
+
+        @media @global-break-md {
+            border: solid black;
+            border-width: 0 1px 1px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        &--right {
+            @media @global-break-md {
+                transform: rotate(-45deg);
+                margin-right: 3px;
+            }
+        }
+
+        &--left {
+            @media @global-break-md {
+                transform: rotate(135deg);
+                margin-left: 3px;
+            }
+        }
+    }
+
+    &__img-item {
+        min-height: 247px;
+        width: 100%;
+        transition: ease-in-out all 350ms;
+
+        @media @global-break-md {
+            min-height: 404px;
+        }
+
+        @media @global-break-lg {
+            min-height: 311px;
+        }
+    }
+
+    &__info {
+        .raleway-normal;
+        display: block;
+        font-size: 18px;
+        line-height: 1;
+
+        text-align: center;
+        letter-spacing: 0.25em;
+
+        color: @black;
+    }
+
+    &__title {
+        .playFair-bold;
+        font-size: 42px;
+        line-height: 1;
+        text-align: center;
+        letter-spacing: 0.1em;
+
+        color: #472138;
+
+    }
+
+    &__card-info {
+        .raleway-300;
+        font-size: 18px;
+        line-height: 21px;
+        display: block;
+        text-align: center;
+        letter-spacing: 0.1em;
+
+        color: @black;
+    }
+
+}

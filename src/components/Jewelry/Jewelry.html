@@ -1,0 +1,13 @@
+<section class="jewelry" data-bind="if: apiData().JewelryStore">
+    <div class="jewelry__container container">
+        <span class="jewelry__info " data-bind=" text:  apiData().JewelryStore.info"> </span>
+        <h2 class="jewelry__title" data-bind="text:  apiData().JewelryStore.title "> </h2>
+        <p class="jewelry__description" data-bind="text: apiData().JewelryStore.description"></p>
+
+        <div class="explorer__info explorer__info--fixed explorer__info--center">
+            <a class="explorer__url" data-bind="attr:{ 'href': apiData().JewelryStore.url  } "> </a>
+            <span class="explorer__circle"> <i class="arrow arrow--black right"></i></span>
+            <span class="explorer__explorer explorer__explorer--black">See More</span>
+        </div>
+    </div>
+</section>

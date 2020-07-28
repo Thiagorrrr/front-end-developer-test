@@ -1,0 +1,73 @@
+@import './colors';
+@import './breakPoint';
+
+.bridal {
+    background-color: @blackberry;
+    padding-bottom: 50px;
+
+    @media @global-break-md {
+        display: flex;
+        padding-bottom: 0;
+    }
+
+    &__container {
+        @media @global-break-md {
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            &.container {
+                padding-left: 55px;
+                padding-right: 55px;
+            }
+        }
+
+        @media @global-break-xl {
+            &.container {
+                width: 50%;
+            }
+        }
+    }
+
+    &__title {
+        color: @apache;
+        .playFair-bold;
+        font-size: 42px;
+        line-height: 100%;
+        margin-top: 40px;
+
+        letter-spacing: 0.1em;
+
+        @media @global-break-xl {
+            font-size: 80px;
+        }
+    }
+
+    &__description {
+        color: @white;
+        .raleway-normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+
+        letter-spacing: 0.1em;
+
+        @media @global-break-md {
+            font-size: 14px;
+        }
+    }
+
+    &__img-item {
+        width: 100%;
+
+        @media @global-break-md {
+            width: auto;
+        }
+
+        @media @global-break-lg {
+            width: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,34 @@
+<header class="header container " data-bind="if: apiData().Header">
+    <div class="header__content">
+        <div class="header__wrapper">
+            <span class=" header__burguer"></span>
+        </div>
+        <div class="header__loaction">
+            <img class="header__location-img" src="Location.png" />
+            <span class="header__location-title">Find a Store </span>
+        </div>
+        <h1 class="header__title-location-img">
+
+            <a class="header__url-location" href="#" title="SmartAge logo">
+                <picture class="header__brand">
+                    <source media="(min-width: 1024px)" data-bind="attr:{srcset:apiData().Header.imgDesk} ">
+                    <source media="(min-width: 768px)" data-bind="attr:{srcset:apiData().Header.imgTablet} ">
+                    <source data-bind="attr:{srcset:apiData().Header.imgMobile} ">
+                    <img data-bind="attr:{srcset:apiData().Header.imgMobile, 'alt':apiData().Header.alt} ">
+                </picture>
+            </a>
+        </h1>
+
+        <div class="header__content-icons">
+            <img class="header__icons header__icons--user" src="user.png" />
+            <img class="header__icons header__icons--heart" src="heart.png" />
+            <img class="header__icons header__icons--bag" src="Bag.png" />
+            <img class="header__icons header__icons--search" src="Search.png" />
+        </div>
+    </div>
+    <ul class="header__list" data-bind="foreach: apiData().Header.menu">
+        <li class="header__list-item"> <a class="header__list-url" data-bind="text: name, attr:{ 'url': url }"> </a>
+        </li>
+    </ul>
+
+</header>

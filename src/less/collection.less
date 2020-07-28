@@ -1,0 +1,156 @@
+@import './colors';
+@import './breakPoint';
+
+.collection {
+    background-color: @apache;
+
+
+    &__wrapper-container {
+        //break the container style
+        padding: 40px 0 50px 15px !important;
+
+        @media @global-break-md {
+            padding: 40px 0 0 15px !important;
+            display: flex;
+            align-items: center;
+        }
+
+        @media @global-break-xl {
+            padding: 40px 0 50px 15px !important;
+            ;
+        }
+    }
+
+    &__container {
+        @media @global-break-md {
+            margin-bottom: -130px;
+        }
+    }
+
+    &__wrapper {
+        padding-bottom: 30px;
+
+        @media @global-break-md {
+            padding-bottom: 80px;
+        }
+
+        @media @global-break-xl {
+            padding-bottom: 60px;
+        }
+    }
+
+    &__list {
+        display: none;
+    }
+
+    &__img-item {
+        min-height: 180px;
+        width: 100%;
+
+        @media @global-break-md {
+
+            max-height: 469px;
+        }
+
+        @media @global-break-xl {
+
+            max-height: 833px;
+        }
+    }
+
+    &__box-text {
+        @media @global-break-md {
+            position: relative;
+            padding-top: 100px;
+            min-height: 394px;
+            width: 100%;
+            padding-left: 88px;
+
+        }
+
+        @media @global-break-lg {
+            width: 775px
+        }
+    }
+
+    &__card-info {
+        .raleway-normal;
+        font-size: 14px;
+        line-height: 1;
+        padding: 22px 0px 10px;
+        display: block;
+        letter-spacing: 0.25em;
+
+        color: @black;
+
+        @media @global-break-md {
+            display: none;
+        }
+    }
+
+    &__info {
+        .raleway-normal;
+        font-size: 18px;
+        line-height: 1;
+
+        text-align: center;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+
+        color: @white;
+
+    }
+
+    &__title {
+        .playFair-bold;
+        font-size: 42px;
+        line-height: 1;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: @black;
+
+        @media @global-break-md {
+            position: absolute;
+            margin: 0;
+            top: 50px;
+            right: -40px;
+            z-index: 9;
+        }
+    }
+
+    .swiper-pagination-bullet {
+        width: 100%;
+        height: auto;
+        background: transparent;
+        opacity: 1;
+        margin-bottom: 40px;
+        text-align: left;
+
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 0.2;
+        position: relative;
+
+        &:after {
+
+            display: block;
+            content: "";
+            width: 100px;
+            height: 1px;
+            background: @black;
+            position: absolute;
+            right: -40px;
+            top: 50%;
+        }
+    }
+
+    .swiper-pagination {
+        display: none;
+
+        @media @global-break-md {
+            display: block;
+            position: relative;
+        }
+    }
+}

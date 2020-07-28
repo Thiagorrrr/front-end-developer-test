@@ -1,0 +1,26 @@
+<div class="swiper-container instagram " data-bind="if: apiData().Instagram">
+    <div class="instagram__box-title">
+        <img class="instagram__box-img"
+            data-bind="attr:{srcset: apiData().Instagram.img, 'alt':apiData().Instagram.alt}" />
+        <h2 class="instagram__title" data-bind="text: apiData().Instagram.title"> </h2>
+    </div>
+    <span class="instagram__info" data-bind="text: apiData().Instagram.info"> </span>
+    <div class="swiper-wrapper instagram__cards" data-bind="foreach: apiData().Instagram.cards">
+        <div class="swiper-slide instagram__card">
+            <div class="instagram__wrapper">
+
+                <picture class="instagram__img">
+                    <source media="(min-width: 1024px)" data-bind="attr:{srcset:imgDesk} ">
+                    <source media="(min-width: 768px)" data-bind="attr:{srcset:imgTablet} ">
+                    <source data-bind="attr:{srcset:imgMobile} ">
+                    <img class="instagram__img-item" data-bind="attr:{srcset:imgMobile, 'alt':alt} ">
+                </picture>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next "><span class="instagram__arrow instagram__arrow--right"> </span></div>
+    <div class="swiper-button-prev "><span class="instagram__arrow instagram__arrow--left"> </span> </div>
+</div>

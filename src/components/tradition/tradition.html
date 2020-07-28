@@ -1,0 +1,26 @@
+<div class="swiper-container tradition" data-bind="if: apiData().Tradition">
+    <span class="tradition__info" data-bind="text: apiData().Tradition.info"></span>
+    <h2 class="tradition__title" data-bind="text: apiData().Tradition.title "> </h2>
+    <div class="swiper-wrapper tradition__cards" data-bind="foreach: apiData().Tradition.cards">
+        <div class="swiper-slide tradition__card">
+            <div class="tradition__wrapper">
+
+
+                <picture class="tradition__img">
+                    <source media="(min-width: 1024px)" data-bind="attr:{srcset:imgDesk} ">
+                    <source media="(min-width: 768px)" data-bind="attr:{srcset:imgTablet} ">
+                    <source data-bind="attr:{srcset:imgMobile} ">
+                    <img class="tradition__img-item" data-bind="attr:{srcset:imgMobile, 'alt':alt} ">
+                </picture>
+
+                <div class="tradition__box-text">
+                    <span class="tradition__box-info" data-bind="text: info">
+                    </span>
+                    <span class="tradition__box-title" data-bind="text: title"> </span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

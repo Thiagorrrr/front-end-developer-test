@@ -1,0 +1,27 @@
+<div class="swiper-container ring" data-bind="if: apiData().Ring">
+    <div class="swiper-wrapper ring__cards" data-bind="foreach: apiData().Ring">
+        <div class="swiper-slide ring__card">
+            <div class="ring__wrapper">
+
+
+                <picture class="ring__img">
+                    <source media="(min-width: 1024px)" data-bind="attr:{srcset:imgDesk} ">
+                    <source media="(min-width: 768px)" data-bind="attr:{srcset:imgTablet} ">
+                    <source data-bind="attr:{srcset:imgMobile} ">
+                    <img class="ring__img-item" data-bind="attr:{srcset:imgMobile, 'alt':alt} ">
+                </picture>
+
+                <div class="ring__box-text">
+                    <span class="ring__info" data-bind="text: info">
+                    </span>
+                    <h2 class="ring__title" data-bind="text: title"> </h2>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next "><span class="ring__arrow ring__arrow--right"> </span></div>
+    <div class="swiper-button-prev "><span class="ring__arrow ring__arrow--left"> </span> </div>
+</div>

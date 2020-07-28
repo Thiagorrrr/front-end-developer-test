@@ -1,0 +1,96 @@
+@import './colors';
+@import './breakPoint';
+
+.tradition {
+
+    padding-top: 40px;
+
+    @media @global-break-md {
+        padding-top: 120px;
+    }
+
+    &__card {
+        @media @global-break-md {
+            &:nth-of-type(2n) {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    &__title {
+        .playFair-bold;
+        font-size: 42px;
+        line-height: 1;
+        padding: 0 10px;
+        margin-bottom: 40px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: @apache;
+
+        @media @global-break-md {
+            width: 40%;
+            margin: 15px auto;
+            padding-bottom: 20px;
+        }
+
+        @media @global-break-xl {
+            padding-bottom: 45px;
+            width: 50%;
+            font-size: 80px;
+
+        }
+
+    }
+
+    &__info {
+        .raleway-normal;
+        display: block;
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+        letter-spacing: 0.25em;
+        color: @black;
+
+        @media @global-break-md {
+            font-size: 20px;
+        }
+    }
+
+    &__box-text {
+        width: 95%;
+        display: inline-block;
+        padding: 26px 0px 30px 20px;
+        background: @white;
+        margin: -40px 0px 0px 5%;
+    }
+
+    &__box-info {
+        .raleway-normal;
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: @apache;
+    }
+
+
+    &__box-title {
+        .playFair-bold;
+        font-size: 36px;
+        line-height: 1;
+        color: @black;
+        display: inline-block;
+    }
+
+    &__img-item {
+        width: 100%;
+
+        @media @global-break-md {
+            width: auto;
+        }
+
+        @media @global-break-lg {
+            width: 100%;
+        }
+    }
+}

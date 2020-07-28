@@ -1,0 +1,19 @@
+<section class="bridal" data-bind="if: apiData().ClassicBridal">
+    <picture class="bridal__img">
+        <source media="(min-width: 1024px)" data-bind="attr:{srcset:apiData().ClassicBridal.imgDesk} ">
+        <source media="(min-width: 768px)" data-bind="attr:{srcset:apiData().ClassicBridal.imgTablet} ">
+        <source data-bind="attr:{srcset:apiData().ClassicBridal.imgMobile} ">
+        <img class="bridal__img-item"
+            data-bind="attr:{srcset:apiData().ClassicBridal.imgMobile, 'alt':apiData().ClassicBridal.alt} ">
+    </picture>
+    <div class="bridal__container container">
+        <h2 class="bridal__title" data-bind="text:  apiData().ClassicBridal.title "> </h2>
+        <p class="bridal__description" data-bind="text: apiData().ClassicBridal.description"></p>
+
+        <div class="explorer__info explorer__info--fixed">
+            <a class="explorer__url" data-bind="attr:{ 'href': apiData().ClassicBridal.url  } "> </a>
+            <span class="explorer__circle"> <i class="arrow  right"></i></span>
+            <span class="explorer__explorer ">shop now</span>
+        </div>
+    </div>
+</section>

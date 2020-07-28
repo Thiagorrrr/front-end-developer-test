@@ -1,0 +1,66 @@
+@import './colors';
+@import './breakPoint';
+
+
+.jewelry {
+    padding: 45px 0 60px 0;
+
+    @media @global-break-xl {
+        padding: 95px 0 95px 0;
+    }
+
+    &__info {
+        display: block;
+        .raleway-normal;
+        font-size: 18px;
+        line-height: 1;
+
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+
+        color: @black;
+
+        @media @global-break-xl {
+            font-size: 20px;
+
+        }
+    }
+
+    &__title {
+        .playFair-bold;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: @apache;
+
+        @media @global-break-md {
+            font-size: 42px;
+        }
+
+        @media @global-break-xl {
+            font-size: 80px;
+        }
+    }
+
+    &__description {
+        .raleway-normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: @black;
+
+        @media @global-break-md {
+            font-size: 14px;
+        }
+
+        @media @global-break-xl {
+            font-size: 18px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            line-height: 27px;
+        }
+    }
+}

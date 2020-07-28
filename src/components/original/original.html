@@ -1,0 +1,20 @@
+<section class="original" data-bind="if: apiData().TheOriginal">
+    <div class="original__container container">
+        <h2 class="original__title" data-bind="text:  apiData().TheOriginal.title "> </h2>
+        <p class="original__description" data-bind="text: apiData().TheOriginal.description"></p>
+
+        <div class="explorer__info explorer__info--fixed">
+            <a class="explorer__url" data-bind="attr:{ 'href': apiData().TheOriginal.url  } "> </a>
+            <span class="explorer__circle"> <i class="arrow arrow--black right"></i></span>
+            <span class="explorer__explorer explorer__explorer--black">Explorer</span>
+        </div>
+    </div>
+
+    <picture class="original__img">
+        <source media="(min-width: 1024px)" data-bind="attr:{srcset:apiData().TheOriginal.imgDesk} ">
+        <source media="(min-width: 768px)" data-bind="attr:{srcset:apiData().TheOriginal.imgTablet} ">
+        <source data-bind="attr:{srcset:apiData().TheOriginal.imgMobile} ">
+        <img class="original__img-item"
+            data-bind="attr:{srcset:apiData().TheOriginal.imgMobile, 'alt':apiData().TheOriginal.alt} ">
+    </picture>
+</section>

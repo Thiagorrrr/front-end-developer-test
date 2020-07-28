@@ -1,0 +1,29 @@
+<section class="swiper-container discover" data-bind="if: apiData().DiscoverMore">
+    <div class="swiper-wrapper discover__cards" data-bind="foreach: apiData().DiscoverMore">
+        <div class="swiper-slide discover__card">
+            <div class="discover__wrapper">
+
+
+                <picture class="discover__img">
+                    <source media="(min-width: 1024px)" data-bind="attr:{srcset:imgDesk} ">
+                    <source media="(min-width: 768px)" data-bind="attr:{srcset:imgTablet} ">
+                    <source data-bind="attr:{srcset:imgMobile} ">
+                    <img data-bind="attr:{srcset:imgMobile, 'alt':alt} ">
+                </picture>
+                <h2 class="discover__title" data-bind="text: title"> </h2>
+                <div class="explorer__info">
+                    <a class="explorer__url" data-bind="attr:{ 'href': url  } "> </a>
+                    <span class="explorer__circle"> <i class="arrow right"></i></span>
+                    <span class="explorer__explorer">Explorer</span>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination pagination ">
+
+    </div>
+    <span class="pagination__title"> Discover more </span>
+</section>

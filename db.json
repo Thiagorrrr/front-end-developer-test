@@ -1,0 +1,383 @@
+{
+    "data": {
+        "Header": {
+            "imgMobile": "brand.png",
+            "imgTablet": "brand-tablet.png",
+            "imgDesk": "brand-desk.png",
+            "alt": "brand icon",
+            "menu": [
+                {
+                    "name": "Collections",
+                    "url": "#"
+                },
+                {
+                    "name": "Categories",
+                    "url": "#"
+                },
+                {
+                    "name": "stores",
+                    "url": "#"
+                },
+                {
+                    "name": "our story",
+                    "url": "#"
+                },
+                {
+                    "name": "contact",
+                    "url": "#"
+                }
+            ]
+        },
+        "DiscoverMore": [
+            {
+                "imgMobile": "engagement.png",
+                "imgTablet": "engagement-tablet.png",
+                "imgDesk": "engagement-desk.png",
+                "alt": "image",
+                "title": "Engagement Ring ",
+                "url": "#"
+            },
+            {
+                "imgMobile": "engagement.png",
+                "imgTablet": "engagement-tablet.png",
+                "imgDesk": "engagement-desk.png",
+                "alt": "image",
+                "title": "Engagement Ring ",
+                "url": "#"
+            },
+            {
+                "imgMobile": "engagement.png",
+                "imgTablet": "engagement-tablet.png",
+                "imgDesk": "engagement-desk.png",
+                "alt": "image",
+                "title": "Engagement Ring ",
+                "url": "#"
+            }
+        ],
+        "TheOriginal": {
+            "title": "The original Design",
+            "description": "Inspired by a spectacular historical legacy and the most refined glamour of the world today.",
+            "imgMobile": "watch.png",
+            "imgTablet": "watch-tablet.png",
+            "imgDesk": "watch-desk.png",
+            "alt": "woaman show a watch"
+        },
+        "JewelryStore": {
+            "info": "The latest from",
+            "title": "Jewelry Store",
+            "description": "Discover all that’s new, brilliant and beautiful in the world of Brand's Name.",
+            "url": "#"
+        },
+        "ClassicBridal": {
+            "title": "Classic Bridal",
+            "description": "Our extraordinary diamonds are chosen to celebrate a love, a hope and a passion. Brilliantly capturing our passion for diamonds, a member of the family individually hand-selects each stone within our bridal collection, so you can fall in love with a diamond for eternity.",
+            "imgMobile": "hands.png",
+            "imgTablet": "hands-tablet.png",
+            "imgDesk": "hands-desk.png",
+            "alt": ""
+        },
+        "Ring": [
+            {
+                "imgMobile": "ring-image-1.png",
+                "imgTablet": "ring-image-1-tablet.png",
+                "imgDesk": "ring-image-1-desk.png",
+                "alt": "image",
+                "info": "category",
+                "title": "Rings",
+                "url": "#"
+            },
+            {
+                "imgMobile": "ring-image-2.png",
+                "imgTablet": "ring-image-2-tablet.png",
+                "imgDesk": "ring-image-2-desk.png",
+                "alt": "image",
+                "info": "category",
+                "title": "Rings",
+                "url": "#"
+            },
+            {
+                "imgMobile": "ring-image-3.png",
+                "imgTablet": "ring-image-3-tablet.png",
+                "imgDesk": "ring-image-3-desk.png",
+                "alt": "image",
+                "info": "category",
+                "title": "Rings",
+                "url": "#"
+            }
+        ],
+        "Selected": {
+            "title": "Selected for You",
+            "info": "SHOP",
+            "cards": [
+                {
+                    "imgMobile": "amavida-image-1.png",
+                    "imgTablet": "amavida-image-1-tablet.png",
+                    "imgDesk": "amavida-image-1-desk.png",
+                    "info": "18K Rose Gold Engagement Ring",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "amavida-image-1.png",
+                    "imgTablet": "amavida-image-1-tablet.png",
+                    "imgDesk": "amavida-image-1-desk.png",
+                    "info": "18K Rose Gold Engagement Ring",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "amavida-image-1.png",
+                    "imgTablet": "amavida-image-1-tablet.png",
+                    "imgDesk": "amavida-image-1-desk.png",
+                    "info": "18K Rose Gold Engagement Ring",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "amavida-image-1.png",
+                    "imgTablet": "amavida-image-1-tablet.png",
+                    "imgDesk": "amavida-image-1-desk.png",
+                    "info": "18K Rose Gold Engagement Ring",
+                    "alt": "image",
+                    "url": "#"
+                }
+            ]
+        },
+        "Collection": {
+            "title": "Collections",
+            "cards": [
+                {
+                    "imgMobile": "collection-image-1.png",
+                    "imgTablet": "collection-image-1-tablet.png",
+                    "imgDesk": "collection-image-1-desk.png",
+                    "info": "BUTTERFLY",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "collection-image-1.png",
+                    "imgTablet": "collection-image-1-tablet.png",
+                    "imgDesk": "collection-image-1-desk.png",
+                    "info": "SWIRL RINGS",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "collection-image-1.png",
+                    "imgTablet": "collection-image-1-tablet.png",
+                    "imgDesk": "collection-image-1-desk.png",
+                    "info": "CARISSA",
+                    "alt": "image",
+                    "url": "#"
+                }
+            ]
+        },
+        "Tradition": {
+            "info": "ABOUT US ",
+            "title": "Excellence & Tradition",
+            "cards": [
+                {
+                    "imgMobile": "tradition-image-1.png",
+                    "imgTablet": "tradition-image-1-tablet.png",
+                    "imgDesk": "tradition-image-1-desk.png",
+                    "alt": "image",
+                    "info": "Process",
+                    "title": "Love is in the Details",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "tradition-image-2.png",
+                    "imgTablet": "tradition-image-2-tablet.png",
+                    "imgDesk": "tradition-image-2-desk.png",
+                    "alt": "image",
+                    "info": "OUR STORY",
+                    "title": "A family traditional",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "tradition-image-3.png",
+                    "imgTablet": "tradition-image-3-tablet.png",
+                    "imgDesk": "tradition-image-3-desk.png",
+                    "alt": "image",
+                    "info": "MATERIAL",
+                    "title": "We deliver the best quality",
+                    "url": "#"
+                }
+            ]
+        },
+        "Events": {
+            "info": "events",
+            "title": "Meet us at:",
+            "dataEvent": [
+                {
+                    "month": "APRIL",
+                    "day": "19-20th",
+                    "title": "The Shops at Chestnut Hill",
+                    "description": "Bloomingdale's , Chestnut Hill, MA"
+                },
+                {
+                    "month": "APRIL",
+                    "day": "19th",
+                    "title": "Stuart Kingston Retailer",
+                    "description": "3704 Kennett Pike Suite 450 Greenville, DE 19807"
+                },
+                {
+                    "month": "APRIL",
+                    "day": "19-20th",
+                    "title": "The Shops at Chestnut Hill",
+                    "description": "Bloomingdale's , Chestnut Hill, MA"
+                }
+            ]
+        },
+        "Instagram": {
+            "title": "Instagram",
+            "info": "@smartshop",
+            "img": "instagram.png",
+            "alt": "instagram logo",
+            "cards": [
+                {
+                    "imgMobile": "chain-image-1.png",
+                    "imgTablet": "chain-image-1-tablet.png",
+                    "imgDesk": "chain-image-1-desk.png",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "engagement.png",
+                    "imgTablet": "engagement-tablet.png",
+                    "imgDesk": "engagement-desk.png",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "ring-image-1.png",
+                    "imgTablet": "ring-image-1-tablet.png",
+                    "imgDesk": "ring-image-1-desk.png",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "ring-image-1.png",
+                    "imgTablet": "ring-image-1-tablet.png",
+                    "imgDesk": "ring-image-1-desk.png",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "ring-image-2.png",
+                    "imgTablet": "ring-image-2-tablet.png",
+                    "imgDesk": "ring-image-2-desk.png",
+                    "alt": "image",
+                    "url": "#"
+                },
+                {
+                    "imgMobile": "ring-image-3.png",
+                    "imgTablet": "ring-image-3-tablet.png",
+                    "imgDesk": "ring-image-3-desk.png",
+                    "alt": "image",
+                    "url": "#"
+                }
+            ]
+        },
+        "Stores": {
+            "info": "STORES",
+            "title": "Find Store",
+            "imgMobile": "findStore-image-1.png",
+            "imgTablet": "findStore-image-1-tablet.png",
+            "imgDesk": "findStore-image-1-desk.png",
+            "url": "#",
+            "alt": "image"
+        },
+        "Footer": {
+            "icon": [
+                {
+                    "icon": "facebook-Icon.png",
+                    "alt": ""
+                },
+                {
+                    "icon": "instagram-Icon.png",
+                    "alt": ""
+                },
+                {
+                    "icon": "twitter-Icon.png",
+                    "alt": ""
+                }
+            ],
+            "contactBnt": {
+                "url": "#",
+                "title": "Contact us"
+            },
+            "signUp": {
+                "title": "Sign up for our newsletter",
+                "label": "Enter your e-mail",
+                "url": "#",
+                "btn": "Subscribe"
+            },
+            "links": [
+                {
+                    "name": "Privacy policy",
+                    "url": "#"
+                },
+                {
+                    "name": "returns and Exchanges",
+                    "url": "#"
+                },
+                {
+                    "name": "Track Order",
+                    "url": "#"
+                }
+            ],
+            "contactLink": {
+                "title": "Contact Us",
+                "email": "owner@example.com"
+            },
+            "support": {
+                "title": "support",
+                "icons": [
+                    {
+                        "icon": "gia-Icon.png",
+                        "alt": "gia icon"
+                    },
+                    {
+                        "icon": "gia-Icon.png",
+                        "alt": "gia icon"
+                    },
+                    {
+                        "icon": "gia-Icon.png",
+                        "alt": "gia icon"
+                    }
+                ]
+            },
+            "payment": {
+                "title": "Payment Methods",
+                "icons": [
+                    {
+                        "icon": "Mastercard-Icon.png",
+                        "alt": "Mastercard icon"
+                    },
+                    {
+                        "icon": "Visa-Icon.png",
+                        "alt": "Visa icon"
+                    },
+                    {
+                        "icon": "Discover-icon.png",
+                        "alt": "Discover icon"
+                    },
+                    {
+                        "icon": "PayPal-Icon.png",
+                        "alt": "Paypal icon"
+                    },
+                    {
+                        "icon": "AmericanExpress-icon.png",
+                        "alt": "AmericanExpress icon"
+                    }
+                ]
+            },
+            "legend": {
+                "info": "Smart Age Solutions, © 2019 | MADE WITH LOVE BY SMART AGE SOLUTIONS ",
+                "icon": "smartAge-icon.png",
+                "alt": "smart age icon"
+            }
+        }
+    }
+}

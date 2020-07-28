@@ -1,0 +1,75 @@
+<footer class="footer" data-bind="if: apiData().Footer">
+    <div class="footer__container container">
+        <div class="footer__box-contact">
+            <ul class="footer__header-list" data-bind="foreach: apiData().Header.menu">
+                <li class="footer__header-list-item"> <a class="footer__header-list-url"
+                        data-bind="text: name, attr:{ 'url': url }"> </a> </li>
+
+
+
+            </ul>
+            <ul class="footer__list-icon" data-bind="foreach: apiData().Footer.icon">
+                <li class="footer__item">
+                    <img class="footer__contact-icon" data-bind="attr:{src:icon , 'alt':alt}" />
+                </li>
+            </ul>
+            <a class="footer__contact-btn"
+                data-bind="text: apiData().Footer.contactBnt.title, attr:{ 'url':apiData().Footer.contactBnt.url}"> </a>
+        </div>
+        <div class=" footer__signUp">
+            <h2 class="footer__signUp-title" data-bind="text: apiData().Footer.signUp.title"> </h2>
+            <form class="footer__form" action="#" method="get">
+                <label class="footer__label" for="email"></label>
+                <input class="footer__input" data-bind="attr:{ 'placeholder':apiData().Footer.signUp.label}"
+                    type="email" id="email" name="email">
+
+                <input class="footer__form-btn" data-bind="attr:{ 'value':apiData().Footer.signUp.btn}" type="submit">
+            </form>
+        </div>
+        <div class="footer__links">
+            <ul class="footer__link-list" data-bind="foreach: apiData().Footer.links">
+                <li class="footer__link-item">
+                    <a class="footer__link-url" data-bind="text: name, attr:{ 'url': url  }"> </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__wrapper-contact-pay">
+            <div class="footer__wrapper-contactLink">
+                <div class="footer__contactLink">
+                    <span class="footer__contactLink-title" data-bind="text: apiData().Footer.contactLink.title"></span>
+                    <a class="footer__contactLink-email"
+                        data-bind="attr:{ 'href': 'mailto:' + apiData().Footer.contactLink.email  }">
+                        <span class="footer__contactLink-name" data-bind="text: apiData().Footer.contactLink.email">
+                        </span>
+                    </a>
+                </div>
+                <div class="footer__support">
+                    <span class="footer__support-title" data-bind="text: apiData().Footer.support.title"> </span>
+                    <ul class="footer__support__list" data-bind="foreach: apiData().Footer.support.icons">
+                        <li class="footer__support-item">
+                            <img class="footer__support-img" data-bind="attr:{src:icon , 'alt':alt}" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__payment">
+                <span class="footer__payment-title" data-bind="text: apiData().Footer.payment.title"> </span>
+                <ul class="footer__payment__list" data-bind="foreach: apiData().Footer.payment.icons">
+                    <li class="footer__payment-item">
+                        <img class="footer__payment-img" data-bind="attr:{src:icon , 'alt':alt}" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer__legend">
+        <div class="footer__legend-container container">
+            <span class="footer__legend-title" data-bind="text: apiData().Footer.legend.info">
+            </span>
+            <img class="footer__legend-img"
+                data-bind="attr:{src:apiData().Footer.legend.icon , 'alt':apiData().Footer.legend.alt}" />
+        </div>
+
+    </div>
+
+</footer>

@@ -1,0 +1,78 @@
+@import './colors';
+@import './breakPoint';
+
+.original {
+    background-color: @linen;
+    margin-top: 10px;
+
+    @media @global-break-md {
+        display: flex;
+
+        margin-top: 0;
+    }
+
+    &__container {
+        &.container {
+            @media @global-break-md {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 55px;
+                padding-right: 55px;
+            }
+
+            @media @global-break-lg {
+                padding-left: 106px
+            }
+
+            @media @global-break-xl {
+                padding-left: 135px
+            }
+        }
+    }
+
+
+    &__title {
+        .playFair-bold;
+        font-size: 42px;
+        line-height: 100%;
+        margin-top: 40px;
+
+        letter-spacing: 0.1em;
+
+        @media @global-break-xl {
+            font-size: 80px;
+        }
+    }
+
+    &__description {
+        .raleway-normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+        ;
+
+        letter-spacing: 0.1em;
+    }
+
+    &__img {
+        display: block;
+        margin-top: 45px;
+
+        @media @global-break-md {
+            margin-top: 0;
+        }
+    }
+
+    &__img-item {
+        width: 100%;
+
+        @media @global-break-md {
+            width: auto;
+        }
+
+        @media @global-break-lg {
+            width: 100%;
+        }
+    }
+}

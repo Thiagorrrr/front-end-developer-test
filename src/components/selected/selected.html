@@ -1,0 +1,23 @@
+<div class="swiper-container selected " data-bind="if: apiData().Selected">
+    <span class="selected__info" data-bind="text: apiData().Selected.info"> </span>
+    <h2 class="selected__title" data-bind="text: apiData().Selected.title"> </h2>
+
+    <div class="swiper-wrapper selected__cards" data-bind="foreach: apiData().Selected.cards">
+        <div class="swiper-slide selected__card">
+            <div class="selected__wrapper">
+
+                <picture class="selected__img">
+                    <source media="(min-width: 1024px)" data-bind="attr:{srcset:imgDesk} ">
+                    <source media="(min-width: 768px)" data-bind="attr:{srcset:imgTablet} ">
+                    <source data-bind="attr:{srcset:imgMobile} ">
+                    <img class="selected__img-item" data-bind="attr:{srcset:imgMobile, 'alt':alt} ">
+                </picture>
+
+            </div>
+            <span class="selected__card-info" data-bind="text: info"> </span>
+        </div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next "><span class="selected__arrow selected__arrow--right"> </span></div>
+    <div class="swiper-button-prev "><span class="selected__arrow selected__arrow--left"> </span> </div>
+</div>

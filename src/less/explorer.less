@@ -1,0 +1,112 @@
+@import './colors';
+@import './breakPoint';
+
+.explorer {
+
+    &__info {
+        position: absolute;
+        color: @white;
+        left: 15px;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+
+
+        @media @global-break-lg {
+            left: 40px;
+            bottom: 40px;
+        }
+
+        @media @global-break-xl {
+            left: 80px;
+            bottom: 60px;
+        }
+
+        &--fixed {
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+
+        &--center {
+            justify-content: center;
+        }
+
+        &--no-mobile {
+            display: none;
+
+            @media @global-break-md {
+                display: flex;
+            }
+        }
+
+        &--collection {
+            @media @global-break-md {
+                position: absolute;
+                z-index: 9;
+                bottom: 100px;
+                left: 24px;
+            }
+        }
+    }
+
+
+
+    &__circle {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        border: 1px solid @apache;
+
+        border-radius: 20px;
+        align-items: center;
+
+        &--black {
+            border: 1px solid @black;
+        }
+
+        .arrow {
+            border: solid @white;
+            border-width: 0 1px 1px 0;
+            display: inline-block;
+            padding: 3px;
+            margin-right: 5px;
+
+            &--black {
+                border: solid @black;
+                border-width: 0 1px 1px 0;
+            }
+
+            &.right {
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+                margin-right: 5px;
+            }
+        }
+
+
+    }
+
+    &__explorer {
+        font-family: Raleway;
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: @white;
+
+        &--black {
+            color: @black;
+        }
+    }
+
+    &__url {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
