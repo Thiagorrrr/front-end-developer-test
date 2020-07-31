@@ -1,1 +1,40 @@
-.playFair-900,.playFair-bold,.playFair-normal{font-family:Playfair Display;font-style:normal;font-weight:400}.playFair-900,.playFair-bold{font-weight:700}.playFair-900{font-weight:900}.raleway-300,.raleway-bold,.raleway-normal{font-family:Raleway;font-style:normal;font-weight:400}.raleway-300,.raleway-bold{font-weight:700}.raleway-300{font-weight:300}.open-sans-bold,.open-sans-normal{font-family:Open Sans;font-style:normal;font-weight:400}.open-sans-bold{font-weight:700}
+.playFair-normal {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+}
+.playFair-bold {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+}
+.playFair-900 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+}
+.raleway-normal {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+}
+.raleway-bold {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}
+.raleway-300 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+}
+.open-sans-normal {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+}
+.open-sans-bold {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+}

@@ -1,1 +1,134 @@
-.playFair-900,.playFair-bold,.playFair-normal{font-family:Playfair Display;font-style:normal;font-weight:400}.playFair-900,.playFair-bold{font-weight:700}.playFair-900{font-weight:900}.raleway-300,.raleway-bold,.raleway-normal{font-family:Raleway;font-style:normal;font-weight:400}.raleway-300,.raleway-bold{font-weight:700}.raleway-300{font-weight:300}.open-sans-bold,.open-sans-normal{font-family:Open Sans;font-style:normal;font-weight:400}.open-sans-bold{font-weight:700}.tradition{padding-top:40px}@media screen and (min-width:768px){.tradition{padding-top:120px}.tradition__card:nth-of-type(2n){margin-top:30px}}.tradition__title{font-family:Playfair Display;font-style:normal;font-weight:700;font-size:42px;line-height:1;padding:0 10px;margin-bottom:40px;text-align:center;letter-spacing:.1em;color:#d5a368}@media screen and (min-width:768px){.tradition__title{width:40%;margin:15px auto;padding-bottom:20px}}@media screen and (min-width:1200px){.tradition__title{padding-bottom:45px;width:50%;font-size:80px}}.tradition__info{font-family:Raleway;font-style:normal;font-weight:400;display:block;font-size:18px;line-height:1;text-align:center;letter-spacing:.25em;color:#000}@media screen and (min-width:768px){.tradition__info{font-size:20px}}.tradition__box-text{width:95%;display:inline-block;padding:26px 0 30px 20px;background:#fff;margin:-40px 0 0 5%}.tradition__box-info{font-family:Raleway;font-style:normal;font-weight:400;font-size:18px;line-height:1;letter-spacing:.25em;text-transform:uppercase;color:#d5a368}.tradition__box-title{font-family:Playfair Display;font-style:normal;font-weight:700;font-size:36px;line-height:1;color:#000;display:inline-block}.tradition__img-item{width:100%}@media screen and (min-width:768px){.tradition__img-item{width:auto}}@media screen and (min-width:992px){.tradition__img-item{width:100%}}
+.playFair-normal {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+}
+.playFair-bold {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+}
+.playFair-900 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+}
+.raleway-normal {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+}
+.raleway-bold {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}
+.raleway-300 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+}
+.open-sans-normal {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+}
+.open-sans-bold {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+.tradition {
+  padding-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .tradition {
+    padding-top: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tradition__card:nth-of-type(2n) {
+    margin-top: 30px;
+  }
+}
+.tradition__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1;
+  padding: 0 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #D5A368;
+}
+@media screen and (min-width: 768px) {
+  .tradition__title {
+    width: 40%;
+    margin: 15px auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .tradition__title {
+    padding-bottom: 45px;
+    width: 50%;
+    font-size: 80px;
+  }
+}
+.tradition__info {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  display: block;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.25em;
+  color: #000;
+}
+@media screen and (min-width: 768px) {
+  .tradition__info {
+    font-size: 20px;
+  }
+}
+.tradition__box-text {
+  width: 95%;
+  display: inline-block;
+  padding: 26px 0px 30px 20px;
+  background: #fff;
+  margin: -40px 0px 0px 5%;
+}
+.tradition__box-info {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #D5A368;
+}
+.tradition__box-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1;
+  color: #000;
+  display: inline-block;
+}
+.tradition__img-item {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .tradition__img-item {
+    width: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .tradition__img-item {
+    width: 100%;
+  }
+}

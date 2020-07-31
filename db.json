@@ -283,7 +283,7 @@
             "info": "STORES",
             "title": "Find Store",
             "imgMobile": "findStore-image-1.png",
-            "imgTablet": "findStore-image-1-tablet.png",
+            "imgTablet": "findStore-image-1-desk.png",
             "imgDesk": "findStore-image-1-desk.png",
             "url": "#",
             "alt": "image"
